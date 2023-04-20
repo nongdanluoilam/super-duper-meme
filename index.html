@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông số tình yêu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>THÔNG SỐ TÌNH YÊU</h1>
+        <p>ghi tên bạn và cờ rút của bạn vào đây, NÔNG DÂN LƯỜI LÀM sẽ cho các bạn biết các bạn có hợp nhau khum.</p>
+    </header>
+    <main>
+        <div class="heart-container">
+            <img src="images/heart.png" alt="heart" class="heart">
+            <div class="heart-shadow"></div>
+        </div>
+        <form id="love-form">
+            <label for="name1">Tên của cậu:</label>
+            <input type="text" id="name1" name="name1" required>
+            <label for="name2">Tên đầy đủ của cờ rút cậu</label>
+            <input type="text" id="name2" name="name2" required>
+            <button type="submit">check ngay chứ còn chờ gì nữa </button>
+        </form>
+        <div id="result" class="result-container">
+            <h2>kết quả ở đây nè:</h2>
+            <p id="result-text" class="result"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
