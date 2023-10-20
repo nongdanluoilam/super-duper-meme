@@ -9,6 +9,6 @@ form.addEventListener("submit", (event) => {
     const name2 = form.name2.value;
     const percentage = Math.floor(Math.random() * 101);
 
-    resultText.innerText = `mối tơ duyên của ${name1} và ${name2} nà ${percentage}%.`;
+    resultText.innerText = `Chúc cậu 20/10 vui vẻ nhaaaaaa! Và tỉ lệ  ${name1} và ${name2} đến với nhau là: ${percentage}%.`;
     resultContainer.style.display = "block";
 });
